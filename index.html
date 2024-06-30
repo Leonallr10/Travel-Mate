@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="https://i.imgur.com/KCgNxIb.png" type="image/png">
+        <title>Travel Mate</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" href="bootstrap/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="bootstrap/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" href="bootstrap/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="bootstrap/owl-carousel/owl.carousel.min.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <!--================Header Area =================-->
+        <header class="header_area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="https://i.imgur.com/KCgNxIb.png" height="40px" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent" style="border-radius: 30px;">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#aboutus">About us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#package">Trending Package</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#activity">Activity</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                            <!-- <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li>  -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="elements.html">Elemests</a></li> -->
+                        </ul>
+                    </div> 
+                </nav>
+            </div>
+        </header>
+        <!--================Header Area =================-->
+        
+        <!--================HOME=================-->
+        <section class="banner_area" id="home">
+            <div class="booking_table d_flex align-items-center">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="url(image/banner.jpg) no-repeat"></div>
+                <div class="container">
+                    <div class="banner_content text-center">
+                        <h6>Explore the World</h6>
+                        <h2>Your Adventure Awaits</h2>
+                        <p>Discover new places, cultures, and experiences with our tailored travel packages.</p>
+                        <a href="#" class="btn theme_btn button_hover">Start Journey</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel_booking_area position" id="book">
+                <div class="container">
+                    <div class="hotel_booking_table">
+                        <div class="col-md-3">
+                            <h2>Book<br> Your Trip</h2>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="boking_table">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="book_tabel_item">
+                                            <div class="form-group">
+                                                <div class='input-group date' id='datetimepicker11'>
+                                                    <input type='text' class="form-control" placeholder="Arrival Date"/>
+                                                    <span class="input-group-addon">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class='input-group date' id='datetimepicker1'>
+                                                    <input type='text' class="form-control" placeholder="Departure Date"/>
+                                                    <span class="input-group-addon">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="book_tabel_item">
+                                            <div class="input-group">
+                                                <select class="wide">
+                                                    <option data-display="Adult">Adult</option>
+                                                    <option value="1">Old</option>
+                                                    <option value="2">Younger</option>
+                                                    <option value="3">Potato</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group">
+                                                <select class="wide">
+                                                    <option data-display="Child">Child</option>
+                                                    <option value="1">Child</option>
+                                                    <option value="2">Baby</option>
+                                                    <option value="3">Child</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="book_tabel_item">
+                                            <div class="input-group">
+                                                <select class="wide">
+                                                    <option data-display="Child">Number of Rooms</option>
+                                                    <option value="1">Room 01</option>
+                                                    <option value="2">Room 02</option>
+                                                    <option value="3">Room 03</option>
+                                                </select>
+                                            </div>
+                                            <a class="book_now_btn button_hover" href="#">Start Your Adventure</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+             <!--================ Facilities Area  =================-->
+             <section class="facilities_area section_gap" id="facilities">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="url(image/facilities-bg.jpg) no-repeat"></div>
+                <div class="container">
+                    <div class="section_title text-center">
+                        <h2 class="title_w">Our Travel Facilities</h2>
+                        <p>Discover our range of amenities designed to enhance your travel and booking experience.</p>
+                    </div>
+                    <div class="row mb_30">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="lnr lnr-map"></i>Travel Desk</h4>
+                                <p>Get expert travel advice and booking assistance from our dedicated team.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="fa fa-plane"></i>Flight Bookings</h4>
+                                <p>Enjoy hassle-free flight bookings with our seamless reservation system.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="fa fa-bed"></i>Hotel Reservations</h4>
+                                <p>Find the perfect stay with our curated list of hotels and exclusive deals.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="lnr lnr-bus"></i>Transport Services</h4>
+                                <p>Travel conveniently with our range of transport options tailored to your needs.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="lnr lnr-laptop"></i>Online Booking Portal</h4>
+                                <p>Book your travel plans with ease using our user-friendly online portal.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <h4 class="sec_h4"><i class="lnr lnr-gift"></i>Exclusive Packages</h4>
+                                <p>Discover exclusive travel packages and deals designed to offer the best value.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        <!--================ About History Area  =================-->
+        <section class="about_history_area section_gap" id="aboutus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d_flex align-items-center">
+                        <div class="about_content">
+                            <h2 class="title title_color">About Us <br>Our Journey<br>Mission & Vision</h2>
+                            <p>Welcome to our premier travel and trip booking platform, where adventure meets convenience. With over two decades of experience in the travel industry, we are dedicated to creating memorable journeys for our clients.</p>
+                            <p style="margin-top: -40px;"><strong>Our Journey:</strong> Established in 2000, we have grown from a small travel agency to a leading booking platform, continually adapting to the changing needs of travelers.</p>
+                            <p style="margin-top: -40px;"><strong>Mission:</strong> To provide seamless and personalized travel booking experiences, ensuring every trip is effortless and enjoyable.</p>
+                            <p style="margin-top: -40px;"> <strong>Vision:</strong> To be the go-to platform for travelers globally, known for our commitment to excellence, innovation, and sustainable travel solutions.</p>
+                            <a href="#" class="button_hover theme_btn_two">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="https://img.freepik.com/free-photo/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand_335224-1356.jpg?t=st=1719728783~exp=1719732383~hmac=911e35c287ca78e2ebf59908f3ef01e2d8f7596a0f2e5ef494f6fdc2681848a6&w=1060" alt="About Us">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ CLIENT REIVIEW =================-->
+        <section class="testimonial_area section_gap" id="reviews">
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="title_color">Testimonials from our Clients</h2>
+                    <p>Discover what our clients have to say about their travel booking experiences with us.</p>
+                </div>
+                <div class="testimonial_slider owl-carousel">
+                    <div class="media testimonial_item">
+                        <img class="rounded-circle" src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?t=st=1719728946~exp=1719732546~hmac=e194cdd6137a7c61deb5b1339b28f0eb2b4c9e3789bf3f19d49c98157acf69c7&w=1060" height="80px" width="20px">                        <div class="media-body">
+                            <p>Booking my vacation with this platform was a breeze. The seamless process and excellent customer service made my trip unforgettable.</p>
+                            <a href="#"><h4 class="sec_h4">Alex Johnson</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="media testimonial_item">
+                        <img class="rounded-circle" src="https://img.freepik.com/free-photo/lifestyle-beauty-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-white-background-smiling-with-arms-crossed-chest_1258-59329.jpg?t=st=1719729138~exp=1719732738~hmac=a2f7c2bfcd93acdb4085aba8693fa4f769ad0339b1deccfaffbd7df7f20877d7&w=1060" height="80px" width="20px" alt="">                        <div class="media-body">
+                            <p>The wide range of options and the ease of booking made planning my business trip incredibly convenient. Highly recommend!</p>
+                            <a href="#"><h4 class="sec_h4">Samantha Lee</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media testimonial_item">
+                        <img class="rounded-circle" src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-hipster-lambersexual-modelsexy-modern-man-dressed-elegant-suit-fashion-male-posing-studio-near-blue-wall_158538-21048.jpg?t=st=1719729186~exp=1719732786~hmac=4097a30e6c4e7990370e7327d58c6a3255821fac2c01889975f9ecb5d81a808b&w=1060" height="80px" width="20px" alt="">                        <div class="media-body">
+                            <p>Fantastic experience from start to finish. The customer support was top-notch and ensured all my travel needs were met perfectly.</p>
+                            <a href="#"><h4 class="sec_h4">Michael Smith</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="media testimonial_item">
+                        <img class="rounded-circle" src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?t=st=1719728645~exp=1719732245~hmac=d847d9198e97b6f0f680d9a8c513a88247b4f2cc34a863452d6ae776d64df96b&w=1060" height="80px" width="20px"alt="">                        <div class="media-body">
+                            <p>From booking flights to finding the perfect hotel, this platform made everything so easy. It was my best travel booking experience so far.</p>
+                            <a href="#"><h4 class="sec_h4">Emily Davis</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--================ OFFER  =================-->
+        <section class="accomodation_area section_gap" id="offers">
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="title_color">Special Offers and Deals</h2>
+                    <p>Experience luxury at unbeatable prices with our exclusive deals and offers. Don't miss out on these limited-time promotions!</p>
+                </div>
+                <div class="row mb_30">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="https://img.freepik.com/premium-photo/beach-is-name-beach_865967-146880.jpg?w=1060" width="400px" alt="Special Offer 1">
+                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                            </div>
+                            <a href="#"><h4 class="sec_h4">Summer Getaway</h4></a>
+                            <h5>Save 20%<small> on 3 nights</small></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="https://img.freepik.com/free-photo/couple-summer-having-relaxing-picnic-day-together_23-2151426013.jpg?t=st=1719728090~exp=1719731690~hmac=4a31eea2998405f4264eb376db9b285c29946f3ca5b597d30dd03590bb2fda26&w=1060" width="400px" alt="Special Offer 2">
+                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                            </div>
+                            <a href="#"><h4 class="sec_h4">Romantic Escape</h4></a>
+                            <h5>Save 27%<small> per couple</small></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="https://img.freepik.com/free-photo/mother-telling-story-two-little-daughter-home-garden_1150-4078.jpg?t=st=1719728722~exp=1719732322~hmac=40635acd6e409d03334fd71d0d8772318ceae23d5b6ddea5c3f5addb8593c4ba&w=1060" width="400px" alt="Special Offer 3">
+                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                            </div>
+                            <a href="#"><h4 class="sec_h4">Family Fun Package</h4></a>
+                            <h5>Save 15%<small> on family rooms</small></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="https://img.freepik.com/free-photo/teenagers-seaside-full-shot_23-2149183699.jpg?t=st=1719728648~exp=1719732248~hmac=6cd55e37d074d536b654133f4b4004740efa183f97ea6df88e716d06659a71c2&w=1060" width="400px" alt="Special Offer 4">
+                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                            </div>
+                            <a href="#"><h4 class="sec_h4">Adventure Weekend</h4></a>
+                            <h5>Book 2 nights<small> and get a free adventure activity</small></h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+   
+ 
+ <!-- =======================package====================== -->
+ <section class="blog_categorie_area" id="package">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">Trending Package</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="https://img.freepik.com/free-photo/beautiful-shot-small-village-surrounded-by-lake-snowy-hills_181624-37802.jpg?t=st=1719734565~exp=1719738165~hmac=d87c4ee9deb1f586dea7127d2497716ac41486b603fa39f67dd47983a7fa14ab&w=1060" alt="Shimla">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="#"><h5>Shimla</h5></a>
+                            <div class="border_line"></div>
+                            <p>Experience the serene beauty of Shimla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="https://img.freepik.com/free-photo/gyeongbokgung-palace-night-seoul-korea_335224-296.jpg?t=st=1719735183~exp=1719738783~hmac=ff24ac76caec83000d6ddb9e865fc1b8fc0cd16b837370b2db22cc220106d5b7&w=1060" alt="Korea">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="#"><h5>North Korea</h5></a>
+                            <div class="border_line"></div>
+                            <p>Explore the vibrant culture of Korea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="categories_post">
+                    <img src="https://img.freepik.com/free-photo/asian-woman-wearing-vietnam-culture-traditional-strawberry-garden-doi-ang-khang-chiang-mai-thailand_335224-755.jpg?t=st=1719735346~exp=1719738946~hmac=0580290b2552d5c926d0d566ca1ca86d173d0cdccc03fff748acdde75dc82b28&w=1060" alt="Kerala">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <a href="kerala-details.html"><h5>Kerala</h5></a>
+                            <div class="border_line"></div>
+                            <p>Embrace the tranquil backwaters of Kerala</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+       
+
+        <!--================ BLOG Area  =================-->
+        <section class="latest_blog_area section_gap" id="blog">
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="title_color">Latest Posts from Our Blog</h2>
+                    <p>Explore insightful articles and tips to enhance your travel and booking experience.</p>
+                </div>
+                <div class="row mb_30">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-recent-blog-post">
+                            <div class="thumb">
+                                <img class="img-fluid" src="https://img.freepik.com/free-photo/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand_335224-1063.jpg?t=st=1719729369~exp=1719732969~hmac=c00dcf8c966a77b989fc8dc779b660cdf90acd9a8a30667a0629775387286aa1&w=1060" alt="post">
+                            </div>
+                            <div class="details">
+                                <div class="tags">
+                                    <a href="#" class="button_hover tag_btn">Travel Tips</a>
+                                    <a href="#" class="button_hover tag_btn">Destinations</a>
+                                </div>
+                                <a href="#"><h4 class="sec_h4">Top 10 Budget-Friendly Destinations</h4></a>
+                                <p>Discover amazing travel destinations that won't break the bank. Get the most value for your money with our top picks.</p>
+                                <h6 class="date title_color">15th March, 2024</h6>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-recent-blog-post">
+                            <div class="thumb">
+                                <img class="img-fluid" src="https://img.freepik.com/free-photo/monument-nicholas-i-saint-petersburg-russia_1398-2887.jpg?t=st=1719729619~exp=1719733219~hmac=10ee1f63406fbc60f2fbdb04da0e6d0ae7fb06a6ca8bbd317a3e0f65f83b568a&w=1060" alt="post">
+                            </div>
+                            <div class="details">
+                                <div class="tags">
+                                    <a href="#" class="button_hover tag_btn">Travel Tips</a>
+                                    <a href="#" class="button_hover tag_btn">Guides</a>
+                                </div>
+                                <a href="#"><h4 class="sec_h4">How to Maximize Your Trip Experience</h4></a>
+                                <p>Learn the best practices for planning your trip to ensure you have a smooth and enjoyable travel experience.</p>
+                                <h6 class="date title_color">10th March, 2024</h6>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-recent-blog-post">
+                            <div class="thumb">
+                                <img class="img-fluid" src="https://img.freepik.com/free-photo/taj-mahal-agra-india_53876-47058.jpg?t=st=1719729662~exp=1719733262~hmac=7bf39da95f367bb4010015b0837847393b02c41dec153e8e996697a5ee118924&w=1060" alt="post">
+                            </div>
+                            <div class="details">
+                                <div class="tags">
+                                    <a href="#" class="button_hover tag_btn">Travel Stories</a>
+                                    <a href="#" class="button_hover tag_btn">Inspiration</a>
+                                </div>
+                                <a href="#"><h4 class="sec_h4">Inspiring Travel Stories from Around the World</h4></a>
+                                <p>Get inspired by incredible travel stories from adventurers who have explored the world and shared their experiences.</p>
+                                <h6 class="date title_color">5th March, 2024</h6>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+<!-- =======================ACTIVITY======================= -->
+
+<section class="gallery_area section_gap" id="activity">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">Our package activity</h2>
+            <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <div class="row imageGallery1" id="gallery">
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/premium-photo/group-people-walking-uphill-mountains_10069-8529.jpg?w=360" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/premium-photo/group-people-walking-uphill-mountains_10069-8529.jpg?w=360"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://i.imgur.com/Z2kfgRi.jpeg" alt="">
+                    
+                    <div class="hover">
+                        <a class="light" href="https://i.imgur.com/Z2kfgRi.jpeg"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/premium-photo/male-lion-bares-teeth-standing-by-lioness_1048944-18300497.jpg?w=360" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/premium-photo/male-lion-bares-teeth-standing-by-lioness_1048944-18300497.jpg?w=360"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/happy-woman-enjoying-snowboarding_23-2151513862.jpg?t=st=1719730132~exp=1719733732~hmac=8e794e4f28af679ffade08e8e1731ecb337ee0d1e862ce258d3578ff2cf5bbd9&w=1060" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/happy-woman-enjoying-snowboarding_23-2151513862.jpg?t=st=1719730132~exp=1719733732~hmac=8e794e4f28af679ffade08e8e1731ecb337ee0d1e862ce258d3578ff2cf5bbd9&w=1060"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/young-smiley-man-rowing_23-2148593414.jpg?t=st=1719730596~exp=1719734196~hmac=9168a7dd6670c254c3d8690db6e959aac32669b42a8d5ed4ef50eeb2b5427e92&w=1060" alt="" >
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/rowing-concept-with-man-holding-oar_23-2148593515.jpg?t=st=1719730479~exp=1719734079~hmac=ae2b97804eb066957f075bfc97e8fa3feaef6e1e95626c34b981498720b23749&w=360"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-sunrise-time_74190-7454.jpg?t=st=1719730024~exp=1719733624~hmac=54e6a7296a76ab491d65c34c576d690ec53b01c797e783f96c7a5b9a86855c4d&w=900" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-sunrise-time_74190-7454.jpg?t=st=1719730024~exp=1719733624~hmac=54e6a7296a76ab491d65c34c576d690ec53b01c797e783f96c7a5b9a86855c4d&w=900"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/cinematic-style-mall_23-2151551172.jpg?t=st=1719730185~exp=1719733785~hmac=1d8d1c54ba11aa33acd7ec372f147ce9f9364a5f17f5b200e718ff87c5c82e56&w=1060" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/cinematic-style-mall_23-2151551172.jpg?t=st=1719730185~exp=1719733785~hmac=1d8d1c54ba11aa33acd7ec372f147ce9f9364a5f17f5b200e718ff87c5c82e56&w=1060"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/horizontal-shot-beach-with-person-gliding-down-paramotor-parachute_181624-16575.jpg?t=st=1719730807~exp=1719734407~hmac=9e24c52803879c19568a1c23c0157deb9495dde9123346ad8ba242816b6b13ad&w=900" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/horizontal-shot-beach-with-person-gliding-down-paramotor-parachute_181624-16575.jpg?t=st=1719730807~exp=1719734407~hmac=9e24c52803879c19568a1c23c0157deb9495dde9123346ad8ba242816b6b13ad&w=900"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 gallery_item">
+                <div class="gallery_img">
+                    <img src="https://img.freepik.com/free-photo/delicious-street-food-fest_23-2151543744.jpg?t=st=1719730399~exp=1719733999~hmac=2427027fb23401e70910bc3a5dec7fb543d2ddf631f5dacd54914ad000461a09&w=1060" alt="">
+                    <div class="hover">
+                        <a class="light" href="https://img.freepik.com/free-photo/delicious-street-food-fest_23-2151543744.jpg?t=st=1719730399~exp=1719733999~hmac=2427027fb23401e70910bc3a5dec7fb543d2ddf631f5dacd54914ad000461a09&w=1060"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================CONTACT============================== -->
+<section class="contact_area section_gap" id="contact">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">Contact Support</h2>
+        </div>
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6">
+                <img src="https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?t=st=1719731731~exp=1719735331~hmac=328fcd4900b7d8a2d4b5ad64716ebdcc7c352f3963ee9fa2689ec75fc3a71c14&w=740" class="img-fluid">
+            </div>
+
+            <!-- Contact Info and Form Column -->
+            <div class="col-md-6">
+                <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-md-12 mb-4">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>California, United States</h6>
+                                <p>Santa Monica Boulevard</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="#">00 (440) 9865 562</a></h6>
+                                <p>Mon to Fri 9am to 6 pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="#">support@colorlib.com</a></h6>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="col-md-12">
+                        <form class="contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message"></textarea>
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+        <!--================ start footer Area  =================-->	
+        <footer class="footer-area section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title">About Us</h6>
+                            <p>We are dedicated to making your travel dreams come true. With our user-friendly platform, you can easily book flights, hotels, and tours, ensuring a hassle-free experience from start to finish.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title">Quick Links</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list_style">
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#blog">Destinations</a></li>
+                                        <li><a href="#reviews">Reviews</a></li>
+                                        <li><a href="#offers">offers</a></li>
+                                        <li><a href="#package">Trending Package</a></li>                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list_style">
+                                        <li><a href="#facilities">Facilities</a></li>
+                                        <li><a href="#activity">Activity</a></li>
+                                        <li><a href="#aboutus">About Us</a></li>
+                                        <li><a href="#home">Book</a></li>
+                                        <li><a href="#aboutus">Our Mission and Vision</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title">Newsletter</h6>
+                            <p>Stay updated with the latest travel deals and tips by subscribing to our newsletter.</p>
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="#" method="get" class="subscribe_form relative">
+                                    <div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                                    </div>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget instafeed">
+                            <h6 class="footer_title">InstaFeed</h6>
+                            <ul class="list_style instafeed d-flex flex-wrap">
+                                <li><img src="https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297159.jpg?t=st=1719732504~exp=1719736104~hmac=fa7e8ee2a5a1385844dd36aa9aed823e1e61e1170784eda55c18e8f272cc5a31&w=1060" height="60px"></li>
+                                <li><img src="https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297194.jpg?t=st=1719732585~exp=1719736185~hmac=a1692285dcf634c01ccdc50916e91ccc08bd8a4ea18e48274cec7b75fcbafa5c&w=1060" height="60px" alt=""></li>
+                                <li><img src="https://img.freepik.com/free-photo/view-saone-river-morning-light-lyon_268835-3847.jpg?t=st=1719732650~exp=1719736250~hmac=e01e7075db17628cead2b36fd28817ff941ca9291f69cfd97d6be0d9916c6ced&w=1060" height="60px" alt=""></li>
+                                <li><img src="https://img.freepik.com/premium-photo/low-angle-view-statue-against-building_1048944-2308787.jpg?w=360" height="60px"alt=""></li>
+                                <li><img src="https://img.freepik.com/free-photo/buddha-statue-wat-mahathat-temple-precinct-sukhothai-historical-park_335224-906.jpg?t=st=1719732821~exp=1719736421~hmac=fedcb1c592aaeb74ac8a8b7b13c3b82fd1ea4397a0be6cb654bf9b73d03f0553&w=1060"height="60px" alt=""></li>
+                                <li><img src="https://img.freepik.com/free-photo/vivid-colors-navratri-celebration-festival_23-2151262769.jpg?t=st=1719732853~exp=1719736453~hmac=4b7cb44303d70a50d4a9d0c5b64cc9ac6922685340fb59eddda4fd5d9229cd22&w=1380"height="60px" alt=""></li>
+                                <li><img src="https://img.freepik.com/free-photo/travelling-china_8327-241.jpg?t=st=1719732895~exp=1719736495~hmac=615fcac632c194d22fecd9f21a6dc69fb8fcfda75e90df260be3d7e0b63c5b74&w=360"height="60px" alt=""></li>
+                                <li><img src="https://img.freepik.com/free-photo/famous-duomo-sunrise-milan-europe_268835-1108.jpg?t=st=1719732910~exp=1719736510~hmac=497eb2a6fded663c9adc2ba6f4d12db57fb52d0ea8b07233cec9c4eecf5701cc&w=1060" height="60px"alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="border_line"></div>
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-sm-12 footer-text m-0 quotes" >“Jobs fill your pocket, but adventures fill your soul.” – Jamie Lyn Beatty</p>
+                    <div class="col-lg-4 col-sm-12 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+		<!--================ End footer Area  =================-->
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="bootstrap/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="bootstrap/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+        <script src="bootstrap/nice-select/js/jquery.nice-select.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="bootstrap/lightbox/simpleLightbox.min.js"></script>
+        <script src="js/custom.js"></script>
+             <!--gmaps Js-->
+             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+             <script src="js/gmaps.min.js"></script>
+             <!-- contact js -->
+             <script src="js/jquery.form.js"></script>
+             <script src="js/jquery.validate.min.js"></script>
+             <script src="js/contact.js"></script>
+             <script src="js/custom.js"></script>
+</html>
+
+
+<style>
+    html {
+  scroll-behavior: smooth;
+}
+.quotes {
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    color: #858383;
+}
+
+.quotes:hover {
+    transform: scale(1.05);
+    color: #e0e341;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+</style>
