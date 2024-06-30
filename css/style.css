@@ -342,6 +342,7 @@ button:focus {
   color: #222222;
   text-transform: uppercase;
   padding: 0px;
+  font-size: medium;
 }
 
 .navbar .menu_nav .nav-item .nav-link:after {
@@ -500,7 +501,7 @@ button:focus {
 }
 
 .banner_area .bg-parallax {
-  background: url("https://img.freepik.com/free-photo/village-bungalows-along-nam-song-river-vang-vieng-laos_335224-1252.jpg?t=st=1719735613~exp=1719739213~hmac=c0549962408ed761dbc8bd11c3f91874f6e7f109f07a543fbc1a02b3a8819055&w=1380") no-repeat scroll center 0/cover;
+  background: url("https://i.imgur.com/ZvlBDpj.jpeg") no-repeat scroll center 0/cover;
   opacity: 0.50;
 }
 
@@ -829,7 +830,7 @@ button:focus {
 }
 
 .facilities_area .bg-parallax {
-  background: url("https://img.freepik.com/free-photo/person-traveling-enjoying-their-vacation_23-2151383050.jpg?t=st=1719735812~exp=1719739412~hmac=524b50fd430d2d6c70da3ce732c36d7eea78aee50a54f223a2ea13c6b370e794&w=1380") no-repeat scroll center 0/cover;
+  background: url("https://i.imgur.com/LCdWnnj.jpeg") no-repeat scroll center 0/cover;
   opacity: 0.15;
 }
 
@@ -1043,68 +1044,74 @@ button:focus {
   margin-left: 2px;
 }
 
-/*========= blog_categorie_area css ===========*/
-.blog_categorie_area {
-  background: #f9f9ff;
-  padding-top: 80px;
-}
+/*========= blog_categorie_area css ===========*//*========= blog_categorie_area css ===========*/
 
-.categories_post {
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-}
+    /* Custom CSS for alignment and styling */
+    .blog_categorie_area {
+      background: #fdfdff;
+      padding: 80px 0; /* Adjusted padding */
+  }
 
-.categories_post img {
-  max-width: 100%;
-}
+  .categories_post {
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 30px; /* Increased spacing between posts */
+      overflow: hidden; /* Hide overflow for smoother animation */
+  }
 
-.categories_post .categories_details {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: rgba(34, 34, 34, 0.8);
-  color: #fff;
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
+  .categories_post img {
+      max-width: 100%;
+      height: auto; /* Ensures images keep their aspect ratio */
+  }
 
-.categories_post .categories_details h5 {
-  margin-bottom: 0px;
-  font-size: 18px;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #fff;
-}
+  .categories_post .categories_details {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(132, 132, 132, 0.8);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0; /* Hidden by default */
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Added transform for animation */
+      transform: translateY(100%); /* Start position for animation */
+  }
 
-.categories_post .categories_details p {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
-  margin-bottom: 0px;
-}
+  .categories_post:hover .categories_details {
+      opacity: 1; /* Show details on hover */
+      transform: translateY(0); /* Slide in animation */
+  }
 
-.categories_post .categories_details .border_line {
-  margin: 10px 0px;
-  background: #fff;
-}
+  .categories_post .categories_details .categories_text {
+      padding: 20px; /* Increased padding for better readability */
+      text-align: left; /* Align text to the left */
+  }
 
-.categories_post:hover .categories_details {
-  background: rgba(248, 182, 0, 0.85);
-}
+  .categories_post .categories_details h5 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #e0e341;
+  }
 
+  .categories_post .categories_details p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+  }
+
+  .categories_post .categories_details .border_line {
+      height: 2px;
+      width: 60px;
+      background: #fff;
+      margin: 10px 0;
+  }
 /*============ blog_left_sidebar css ==============*/
 .blog_area {
   background: #f9f9ff;
